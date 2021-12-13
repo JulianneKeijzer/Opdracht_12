@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+}
+
+header nav, form{
+    margin: 15px;
+}
+
+.link-1 a:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+.link-2 a:active {
+    color: red;
+    font-style: italic;
+}
+
+.link-3 a:visited {
+    color: yellow;
+}
+
+form input:focus {
+    color: green;
+    font-size: 20px;
+}
+
+main nav ul li {
+    margin: 25px;
+    display: inline;
+}
+
+main nav ul li:first-child {
+    margin-left: 0px;
+}
+
+main nav {
+    background-color: darkblue;
+}
+
+.currentPage {
+    background-color: gray;
+}
+
+main nav ul li:hover {
+    background-color: lightblue;
+}
+
+main nav {
+    border: 3px solid red;
+}
+
+main nav:focus {
+    border: 3px solid aqua;
+}
